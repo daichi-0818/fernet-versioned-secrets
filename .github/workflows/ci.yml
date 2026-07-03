@@ -10,4 +10,4 @@ jobs:
           python-version: "3.12"
       - run: pip install pytest cryptography pillow numpy
       - run: |
-          if [ -d tests ]; then pytest -q; else python -m compileall -q src; fi
+          if [ -d tests ]; then PYTHONPATH=src pytest -q; else python -m compileall -q src; fi
