@@ -1,5 +1,7 @@
 # fernet-versioned-secrets
 
+[![CI](https://github.com/daichi-0818/fernet-versioned-secrets/actions/workflows/ci.yml/badge.svg)](https://github.com/daichi-0818/fernet-versioned-secrets/actions/workflows/ci.yml)
+
 A tiny, dependency-light utility for encrypting secrets with [Fernet](https://cryptography.io/en/latest/fernet/)
 (symmetric AES-based authenticated encryption) and a **version prefix**, so
 you can roll out encryption gradually and rotate keys/algorithms later
